@@ -1,0 +1,50 @@
+.Prescription {
+    margin-top: 15px;
+    border-bottom: 2px solid black;
+}
+
+.prescription-code {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.prescription-code p:nth-child(2) {
+    font-size: 12px;
+}
+
+.warning-valid-date {
+    padding: 20px;
+    border: 1.7px solid black;
+}
+
+.drug-volume {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.drug-volume p:nth-child(2) {
+    padding-left: 10px;
+    border-left: 2px solid black;
+}
+
+.Prescription div:nth-child(4),
+div:nth-child(5),
+div:nth-child(6),
+div:nth-child(7) {
+    display: flex;
+    justify-content: flex-start;
+}
+
+.Prescription div:nth-child(7) {
+    margin-bottom: 10px;
+}
+
+.refund-code,
+.valid-date {
+    font-weight: 700;
+    color: red;
+    position: relative;
+    left: 8px;
+}

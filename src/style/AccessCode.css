@@ -1,0 +1,6 @@
+.AccessCode {
+    display: flex;
+    justify-content: space-between;
+    width: 495px;
+    margin-top: 1rem;
+}

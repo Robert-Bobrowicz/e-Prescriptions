@@ -1,0 +1,11 @@
+.LinkToIKP {
+    font-size: 13px;
+    margin-bottom: 15px;
+}
+
+.LinkToIKP a {
+    margin-left: 8px;
+    margin-right: 8px;
+    font-weight: 800;
+    color: red;
+}

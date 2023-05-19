@@ -1,0 +1,13 @@
+.Physician {
+    text-align: left;
+    width: 550px;
+    padding-left: 25px;
+    padding-bottom: 15px;
+    display: flex;
+    border-bottom: 2px solid black;
+}
+
+.physician-name {
+    position: relative;
+    left: 37px;
+}

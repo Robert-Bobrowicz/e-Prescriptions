@@ -1,0 +1,14 @@
+.Patient {
+    width: 550px;
+    padding: 15px 25px;
+    display: flex;
+    align-items: center;
+}
+
+.patient-name {
+    position: relative;
+    left: 55px;
+    font-size: 24px;
+    font-weight: 600;
+    font-variant: small-caps;
+}
