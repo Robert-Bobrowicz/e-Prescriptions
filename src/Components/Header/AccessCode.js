@@ -2,7 +2,7 @@ import React from "react";
 import "../../style/AccessCode.css";
 
 function AccessCode() {
-    const date = "17.05.2023 r.";
+    const date = new Date().toLocaleString("pl", { day: '2-digit', month: "numeric", year: 'numeric' });
 
     return (
         <div className="AccessCode">
