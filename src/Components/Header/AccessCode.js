@@ -2,11 +2,12 @@ import React from "react";
 import "../../style/AccessCode.css";
 
 function AccessCode() {
-    const date = new Date().toLocaleString("pl-PL", { day: '2-digit', month: "numeric", year: 'numeric' });
+    const date = new Date().toLocaleString("en-EN", { day: '2-digit', month: "long", year: 'numeric' });
+    const accessCode = "0001"
 
     return (
         <div className="AccessCode">
-            <p>Access code: <b>0001</b></p>
+            <p>Access code: <b>{accessCode}</b></p>
             <p>Issue date: {date}</p>
         </div>
     )
